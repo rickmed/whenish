@@ -1,0 +1,37 @@
+{
+    "name": "whenish",
+    "description": "Pattern Matching for Javascript | Typescript",
+    "author": {
+        "name": "Ricardo Medina",
+        "email": "rickmedina85@gmail.com",
+        "url": "https://github.com/rickmed"
+    },
+    "license": "MIT",
+    "keywords": [
+        "pattern matching",
+        "match",
+        "case"
+    ],
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/rickmed/whenish"
+    },
+    "version": "0.0.1",
+    "devDependencies": {
+        "@types/jest": "28.1.6",
+        "@typescript-eslint/eslint-plugin": "5.31.0",
+        "@typescript-eslint/parser": "5.31.0",
+        "eslint": "8.20.0",
+        "jest": "28.1.3",
+        "ts-jest": "28.0.7",
+        "ts-node": "10.9.1",
+        "typescript": "4.7.4"
+    },
+    "scripts": {
+        "tsc": "tsc",
+        "test:dev": "jest --watchAll"
+    },
+    "main": "lib/index.js",
+    "types": "lib/index.d.ts",
+    "file": "lib/**/*"
+}
